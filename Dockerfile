@@ -38,9 +38,6 @@ RUN set -ex; \
         ssh \
         terminator \
         htop \
-    && apt-get autoclean \
-    && apt-get autoremove \
-    && rm -rf /var/lib/apt/lists/*
 
 ENV HOME=/root \
     DEBIAN_FRONTEND=noninteractive \
