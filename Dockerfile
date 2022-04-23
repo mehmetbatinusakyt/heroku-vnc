@@ -37,7 +37,7 @@ RUN set -ex; \
         g++ \
         ssh \
         terminator \
-        htop \
+        htop 
 
 ENV HOME=/root \
     DEBIAN_FRONTEND=noninteractive \
