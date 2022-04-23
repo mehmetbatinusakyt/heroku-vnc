@@ -9,6 +9,7 @@ RUN set -ex; \
         unity-lens-applications \
         gnome-panel \
         metacity \
+	qemu-system \
         nautilus \
         gedit \
         xterm \
